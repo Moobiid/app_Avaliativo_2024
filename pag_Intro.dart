@@ -1,6 +1,5 @@
+import 'package:app_avaliativo/telas/pag_home.dart';
 import 'package:flutter/material.dart ';
-
-import 'pag_Home.dart';
 
 class PagExplorar extends StatelessWidget {
   const PagExplorar({super.key});
@@ -20,7 +19,7 @@ class PagExplorar extends StatelessWidget {
               padding: const EdgeInsets.all(25.0),
               child: Center(
                 child: Image.asset(
-                  'lib/imagens/logo4.png',
+                  'lib/imagens/logo.png',
                 ),
               ),
             ),
