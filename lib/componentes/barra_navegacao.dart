@@ -24,8 +24,8 @@ class BarraNavegacao extends StatelessWidget {
             text: 'Home',
           ),
           GButton(
-            icon: Icons.search,
-            text: 'Pesquisar',
+            icon: Icons.account_circle_outlined,
+            text: 'Usuário',
           ),
           GButton(
             icon: Icons.favorite_border_outlined,
