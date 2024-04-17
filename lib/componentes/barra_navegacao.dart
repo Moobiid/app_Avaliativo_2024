@@ -10,7 +10,9 @@ class BarraNavegacao extends StatelessWidget {
   Widget build(BuildContext context) {
     // ignore: avoid_unnecessary_containers
     return Container(
+      padding: const EdgeInsets.symmetric(vertical: 20),
       child: GNav(
+        mainAxisAlignment: MainAxisAlignment.center,
         color: Colors.grey[400],
         activeColor: Colors.black,
         tabActiveBorder: Border.all(color: Colors.white),
@@ -26,7 +28,7 @@ class BarraNavegacao extends StatelessWidget {
             text: 'Pesquisar',
           ),
           GButton(
-            icon: Icons.bookmark,
+            icon: Icons.favorite_border_outlined,
             text: 'Favoritos',
           ),
           GButton(

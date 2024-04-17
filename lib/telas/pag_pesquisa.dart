@@ -10,6 +10,10 @@ class PagPesquisa extends StatefulWidget {
 class _PagPesquisaState extends State<PagPesquisa> {
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('Pagina de pesquisa'));
+    return const Center(
+        child: Text(
+      'EM DESENVOLVIMENTO',
+      style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+    ));
   }
 }

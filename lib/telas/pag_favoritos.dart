@@ -10,6 +10,10 @@ class PagFavoritos extends StatefulWidget {
 class _PagFavoritosState extends State<PagFavoritos> {
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('Pagina de favoritos'));
+    return const Center(
+        child: Text(
+      'EM DESENVOLVIMENTO',
+      style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+    ));
   }
 }
