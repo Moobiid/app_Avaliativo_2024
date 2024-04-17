@@ -18,6 +18,7 @@ Future main() async {
             projectId: "aplicativo-avaliativo"));
   }
   await Firebase.initializeApp();
+
   runApp(
     DevicePreview(
       enabled: true,
